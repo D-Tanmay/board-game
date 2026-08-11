@@ -21,10 +21,10 @@ spec:
           resources:
             requests:
               cpu: "200m"
-              memory: "384Mi"
+              memory: "40Mi"
             limits:
               cpu: "750m"
-              memory: "768Mi"
+              memory: "50MMi"
 ---
 apiVersion: v1 # Kubernetes API version
 kind: Service # Kubernetes resource kind we are creating
